@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background-color: #161717;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.container {
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botones {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.inicioGoogle {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(41, 126, 255);
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    gap: 15px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.inicioGoogle picture {
+    background-color: white;
+    width: 38px;
+    height: 38px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicioGoogle img {
+    width: 75%;
+}
+
+.inicioGoogle:hover {
+    opacity: 0.75;
+    transition: 0.3s ease;
+}
+
+.inicioGoogle:not(:hover) {
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.btnTwitter {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(45, 170, 225);
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.btnTwitter picture {
+    width: 20%;
+}
+
+.btnTwitter img {
+    width: 100%;
+}
+
+.btnTwitter:hover {
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+
+.btnTwitter:not(:hover) {
+    border-radius: 10%;
+    transition: 0.5s ease;
+}
+
+.separator {
+    display: flex;
+    width: 500px;
+    gap: 10px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid grey;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.useryPass {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.useryPass label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label span {
+    font-weight: 600;
+}
+
+.password {
+    display: flex;
+    gap: 150px;
+}
+
+.forgotPassword {
+    justify-content: end;
+    font-weight: 500;
+}
+
+#nam,
+#pass {
+    color: white;
+    padding: 8px 200px 8px 8px;
+    border: 1px solid transparent;
+    background-color: #212121;
+    border-radius: 1ch;
+    font-size: 14pt;
+}
+
+#pass:hover,
+#nam:hover {
+    box-shadow: 0px 0px 10px pink;
+    border: 1px rgb(230, 158, 170) solid;
+    opacity: 0.30;
+    transition: 0.5s ease;
+}
+
+#pass:focus,
+#nam:focus {
+    box-shadow: 0px 0px 10px pink;
+    opacity: 0.80;
+    outline: none;
+    border: 1px rgb(230, 158, 170) solid;
+    transition: 0.5s ease;
+}
+
+#pass:active,
+#nam:active {
+    box-shadow: none;
+    opacity: 1;
+    outline: none;
+    border: 1px grey solid;
+    transition: 0.2s ease;
+}
+
+
+.singIn {
+    background-color: rgb(234, 76, 137);
+    border: none;
+    padding: 15px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.singIn:hover {
+    opacity: 0.75;
+    transition: 0.3s ease;
+}
+
+
+.notMember {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}
