@@ -49,8 +49,8 @@ h2 {
 
 .inicioGoogle picture {
     background-color: white;
-    width: 38px;
-    height: 38px;
+    width: 36px;
+    height: 36px;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -130,7 +130,7 @@ label span {
 
 .password {
     display: flex;
-    gap: 150px;
+    gap: 50%;
 }
 
 .forgotPassword {
