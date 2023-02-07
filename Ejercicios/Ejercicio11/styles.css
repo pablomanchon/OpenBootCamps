@@ -1,19 +1,4 @@
-.col-sm {
-    background-color: aqua;
-    margin: 0.2rem;
-}
-
-.col-md {
-    background-color: blueviolet;
-    margin: 0.2rem;
-}
-
-.col-lg {
-    background-color: burlywood;
-    margin: 0.2rem;
-}
-
-.col-xl {
-    background-color: chartreuse;
-    margin: 0.2rem;
+div div {
+    background-color: aquamarine;
+    margin: 0.5rem;
 }
