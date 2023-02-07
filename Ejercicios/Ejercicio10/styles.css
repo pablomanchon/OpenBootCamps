@@ -1,0 +1,54 @@
+.contenedor {
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    background-color: bisque;
+}
+
+.navegacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.5rem;
+    transition: 0.6s;
+    padding: 0.2rem;
+}
+
+.navegacion:hover {
+    padding: 1rem;
+}
+
+.elemento {
+    background-color: rgb(192, 158, 118);
+    border-radius: 10px;
+    border-bottom: rgb(135, 111, 84) solid 0.2rem;
+    padding: 0.2rem;
+    transition: 0.3s;
+}
+
+.elemento:hover {
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: brown;
+    border-radius: 20px;
+    border-bottom: rgb(91, 75, 58) solid 0.2rem;
+
+}
+
+.principal {
+    padding: 0.5rem;
+    display: flex;
+    background-color: burlywood;
+    flex-grow: 1;
+}
+
+@media (min-width:640px) {
+    .contenedor {
+        flex-direction: column-reverse;
+    }
+
+    .navegacion {
+        flex-direction: row;
+    }
+}
