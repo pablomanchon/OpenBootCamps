@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-modern {
+    font-weight: 600;
+    background-color: aqua;
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(0, 212, 212);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn-modern::before {
+    content: 'Fuera del boton';
+}
+
+.btn-modern:hover {
+    background-color: red;
+    border-bottom: 2px solid rgb(200, 0, 0);
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px yellow;
+    transition: 0.4s;
+}
+
+.btn-modern:hover::before {
+    content: 'Dentro del boton';
+    color: white;
+}

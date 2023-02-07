@@ -1,0 +1,50 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    animation: vuelta 4s infinite alternate ease-in-out;
+}
+
+.padre:hover .hijo {
+    animation-play-state: paused;
+}
+
+.padre:not(:hover) .hijo {
+    background-color: aqua;
+    transition: 3s;
+}
+
+@keyframes vuelta {
+    0% {
+        transform: translateX(0%);
+    }
+
+    25% {
+        transform: translateX(100%);
+        border-radius: 50%;
+        background-color: blue;
+    }
+
+    50% {
+        transform: translateY(100%) translateX(100%);
+        border-radius: 0%;
+        background-color: blueviolet;
+    }
+
+    75% {
+        transform: translateY(100%);
+        border-radius: 50%;
+        background-color: brown;
+    }
+
+    100% {
+        background-color: aqua;
+        transform: translateX(0%), translateY(0%);
+    }
+}
