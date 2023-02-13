@@ -140,6 +140,7 @@ label span {
 
 #nam,
 #pass {
+    color: white;
     padding: 8px 200px 8px 5px;
     border: 1px solid transparent;
     background-color: #212121;
