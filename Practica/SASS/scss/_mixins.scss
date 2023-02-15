@@ -1,0 +1,10 @@
+
+$colorDefecto: rgb(121, 7, 202);
+
+@mixin pAndH1($background: aqua){
+    color: $colorDefecto;
+    background-color: $background;
+    border-radius: 5px;
+    width: 50rem;
+    text-transform: uppercase;
+}

@@ -1,0 +1,34 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    background-color: aquamarine;
+    min-height: 100vh;
+    padding: 0.5rem;
+}
+h1 {
+    @include pAndH1;
+}
+p {
+    @include pAndH1(rgb(133, 255, 11));
+}
+
+.listado {
+    ul{
+        width: 10rem;
+        background-color: rgb(47, 47, 47);
+        border-radius: 8px;
+        padding: 0.5rem;
+        color: white;
+
+        li{
+            list-style: none;
+
+            &:hover{
+                color: red;
+            }
+        }
+    }
+}

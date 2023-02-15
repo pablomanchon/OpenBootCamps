@@ -1,0 +1,61 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
+  color: black;
+  padding: 0.5rem;
+  border-radius: 3rem;
+  background-color: yellow;
+  box-shadow: 0 0 15px red;
+  transition: 0.4s ease-in-out;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: aquamarine;
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+
+h1 {
+  color: rgb(121, 7, 202);
+  background-color: aqua;
+  border-radius: 5px;
+  width: 50rem;
+  text-transform: uppercase;
+}
+
+p {
+  color: rgb(121, 7, 202);
+  background-color: rgb(133, 255, 11);
+  border-radius: 5px;
+  width: 50rem;
+  text-transform: uppercase;
+}
+
+.listado ul {
+  width: 10rem;
+  background-color: rgb(47, 47, 47);
+  border-radius: 8px;
+  padding: 0.5rem;
+  color: white;
+}
+.listado ul li {
+  list-style: none;
+}
+.listado ul li:hover {
+  color: red;
+}/*# sourceMappingURL=styles.css.map */
