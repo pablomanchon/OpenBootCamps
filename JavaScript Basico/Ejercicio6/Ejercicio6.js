@@ -3,23 +3,23 @@ listaCompras.push("Aceite de Girasol");
 
 console.log(listaCompras);
 
-peli1 = {
-  titulo: "Planeta Verde",
-  director: "Coline Serreau",
-  fecha: "18 Sep 1996",
-};
-peli2 = {
-  titulo: "El Hobbit",
-  director: "Peter Jackson",
-  fecha: "13 dec 2012",
-};
-peli3 = {
-  titulo: "Shrek",
-  director: "Vicky Jenson",
-  fecha: "19 Jul 2001",
-};
-
-const listaPeliculas = [peli1, peli2, peli3];
+const listaPeliculas = [
+  {
+    titulo: "Planeta Verde",
+    director: "Coline Serreau",
+    fecha: "18 Sep 1996",
+  },
+  {
+    titulo: "El Hobbit",
+    director: "Peter Jackson",
+    fecha: "13 dec 2012",
+  },
+  {
+    titulo: "Shrek",
+    director: "Vicky Jenson",
+    fecha: "19 Jul 2001",
+  },
+];
 
 const listaPelis2010 = listaPeliculas.filter(
   (p) => new Date(p.fecha).getTime() > new Date("1 jan 2010").getTime()
