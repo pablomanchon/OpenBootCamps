@@ -1,10 +1,28 @@
-
 $colorDefecto: rgb(121, 7, 202);
 
-@mixin pAndH1($background: aqua){
-    color: $colorDefecto;
-    background-color: $background;
-    border-radius: 5px;
-    width: 50rem;
-    text-transform: uppercase;
+@mixin pAndH1($background: aqua) {
+  color: $colorDefecto;
+  background-color: $background;
+  border-radius: 5px;
+  width: 50rem;
+  text-transform: uppercase;
+}
+@mixin botones($background) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: $background;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border: none;
+}
+@mixin botonHover() {
+  cursor: pointer;
+  color: black;
+  padding: 0.5rem;
+  border-radius: 3rem;
+  background-color: yellow;
+  box-shadow: 0 0 15px red;
+  transition: 0.4s ease-in-out;
 }

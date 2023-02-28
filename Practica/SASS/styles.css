@@ -8,6 +8,25 @@
   padding: 0.25rem 0.5rem;
   border: none;
 }
+.btn-rojo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border: none;
+}
+.btn-rojo:hover {
+  cursor: pointer;
+  color: black;
+  padding: 0.5rem;
+  border-radius: 3rem;
+  background-color: yellow;
+  box-shadow: 0 0 15px red;
+  transition: 0.4s ease-in-out;
+}
 .btn:hover {
   cursor: pointer;
   color: black;
@@ -58,4 +77,6 @@ p {
 }
 .listado ul li:hover {
   color: red;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */

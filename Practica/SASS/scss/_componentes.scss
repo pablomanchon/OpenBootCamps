@@ -1,20 +1,13 @@
-.btn{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border-radius:5px;
-    background-color: green;
-    color:white;
-    padding: 0.25rem 0.5rem;
-    border: none;
-
-    &:hover{
-        cursor: pointer;
-        color: black;
-        padding: 0.5rem;
-        border-radius: 3rem;
-        background-color: yellow;
-        box-shadow: 0 0 15px red;
-        transition: 0.4s ease-in-out;
+@use "mixins" as m;
+.btn {
+  @include m.botones(green);
+  &-rojo {
+    @include m.botones(red);
+    &:hover {
+      @include m.botonHover();
     }
+  }
+  &:hover {
+    @include m.botonHover();
+  }
 }
