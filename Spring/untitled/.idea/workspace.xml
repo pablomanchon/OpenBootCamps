@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9691fa7c-d7e7-4b5b-b4b6-8149e71a4a02" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../JPA/PruebasSpring/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JPA/PruebasSpring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JPA/PruebasSpring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JPA/PruebasSpring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JPA/PruebasSpring/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JPA/PruebasSpring/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JPA/PruebasSpring/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JPA/PruebasSpring/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/src/main/java/Controladora/Logica.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA/Ejercicio1/src/main/java/Controladora/Logica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/src/main/java/Entidades/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA/Ejercicio1/src/main/java/Entidades/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/src/main/java/Entidades/Editorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA/Ejercicio1/src/main/java/Entidades/Editorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/src/main/java/Entidades/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA/Ejercicio1/src/main/java/Entidades/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/src/main/java/JPAController/AutorJpaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA/Ejercicio1/src/main/java/JPAController/AutorJpaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/src/main/java/Main/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA/Ejercicio1/src/main/java/Main/Ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/classes/Controladora/Logica.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/classes/Controladora/Logica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/classes/Entidades/Autor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/classes/Entidades/Autor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/classes/Entidades/Editorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/classes/Entidades/Editorial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/classes/Entidades/Libro.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/classes/Entidades/Libro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/classes/JPAController/AutorJpaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/classes/JPAController/AutorJpaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/classes/Main/Ejercicio1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/classes/Main/Ejercicio1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA/Ejercicio1/target/test-classes/.netbeans_automatic_build" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OIVRkl2lbjdhQEG9vCn573H4OW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9691fa7c-d7e7-4b5b-b4b6-8149e71a4a02" name="Changes" comment="" />
+      <created>1681248077090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681248077090</updated>
+    </task>
+    <servers />
+  </component>
+</project>
