@@ -12,7 +12,7 @@ import java.time.LocalDate;
 public class Application {
 
 	public static void main(String[] args) {
-		ApplicationContext context = SpringApplication.run(Application.class, args);
+		/*ApplicationContext context = SpringApplication.run(Application.class, args);
 		BookRepository repository = context.getBean(BookRepository.class);
 		Book book1 = new Book(null,"Alicia en el pais de las maravillas", "Disney",
 				200, 20000d, LocalDate.of(1997,10,13),true);
@@ -24,8 +24,7 @@ public class Application {
 		repository.save(book2);
 
 		//Recuperar los libros
-		System.out.println(repository.findAll().size());
-
+		System.out.println(repository.findAll().size());*/
 	}
 
 }
