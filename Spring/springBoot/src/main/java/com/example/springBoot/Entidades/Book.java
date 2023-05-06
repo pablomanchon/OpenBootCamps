@@ -1,9 +1,6 @@
 package com.example.springBoot.Entidades;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 import java.time.LocalDate;
 
@@ -16,6 +13,7 @@ public class Book {
     private String author;
     private Integer pages;
     private Double price;
+    @Temporal(TemporalType.DATE)
     private LocalDate releaseDate;
     private Boolean online;
 
